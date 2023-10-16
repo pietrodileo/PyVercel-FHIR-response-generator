@@ -1,5 +1,14 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/api/retiResponseAPI" }
+    "builds": [
+        {
+            "src":"/api/retiResponseAPI.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes":[
+        { 
+            "src": "/(.*)", 
+            "dest": "/api/retiResponseAPI.py" 
+        }
     ]
 }
