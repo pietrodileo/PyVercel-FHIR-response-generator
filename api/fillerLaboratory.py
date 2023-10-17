@@ -1,11 +1,11 @@
 import json
-from messageHeader import MessageHeader
-from bundle import Bundle
-from genericFHIRresource import GenericFHIRresource
-from task import Task
-from serviceRequest import ServiceRequest
-from organization import OrganizationL1, OrganizationL2
-from specimen import Specimen
+from .messageHeader import MessageHeader
+from .bundle import Bundle
+from .genericFHIRresource import GenericFHIRresource
+from .task import Task
+from .serviceRequest import ServiceRequest
+from .organization import OrganizationL1, OrganizationL2
+from .specimen import Specimen
 
 class FillerLaboratory:
     def fillerLabAcceptsAllRequest(self, data):

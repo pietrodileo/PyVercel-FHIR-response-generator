@@ -1,6 +1,6 @@
 import json
 import uuid
-from genericFHIRresource import GenericFHIRresource
+from .genericFHIRresource import GenericFHIRresource
 
 class ServiceRequest(GenericFHIRresource):
     def __init__(self, fullUrl, resourceContent):

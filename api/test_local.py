@@ -1,5 +1,5 @@
 import json
-from fillerLaboratory import FillerLaboratory
+from .fillerLaboratory import FillerLaboratory
 
 # Create an instance of FillerLaboratory
 filler_lab = FillerLaboratory()

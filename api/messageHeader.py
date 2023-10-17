@@ -1,6 +1,6 @@
 import json
 import uuid
-from genericFHIRresource import GenericFHIRresource
+from .genericFHIRresource import GenericFHIRresource
 import os
 
 class MessageHeader(GenericFHIRresource):

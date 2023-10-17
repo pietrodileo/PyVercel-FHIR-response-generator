@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from fillerLaboratory import FillerLaboratory
+from .fillerLaboratory import FillerLaboratory
 
 # Create a new Flask application
 app = Flask(__name__)

@@ -1,6 +1,6 @@
 import json
 import uuid
-from genericFHIRresource import GenericFHIRresource
+from .genericFHIRresource import GenericFHIRresource
 
 class Task(GenericFHIRresource):
     def __init__(self, taskStatus, serviceRequestReference, encounterReference):

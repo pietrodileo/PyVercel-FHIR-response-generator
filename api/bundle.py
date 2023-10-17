@@ -1,7 +1,7 @@
 import uuid
 import datetime
 import json
-from genericFHIRresource import GenericFHIRresource
+from .genericFHIRresource import GenericFHIRresource
 
 class Bundle(GenericFHIRresource):
     def __init__(self, resources):
