@@ -55,6 +55,7 @@ def hello_world():
         else:
             # Handle unsupported methods
             return handle_error("Method not allowed. Only GET and POST are supported.", 405)
+        
         return jsonify(response)
 
     except ValueError as ve:
